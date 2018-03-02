@@ -1,0 +1,31 @@
+{
+  "name": "coredigix-array",
+  "version": "1.0.0",
+  "description": "javascript array utilities",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coredigix/coredigix-array.git"
+  },
+  "keywords": [
+    "javascript",
+    "array"
+  ],
+  "author": "coredigix",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coredigix/coredigix-array/issues"
+  },
+  "homepage": "https://github.com/coredigix/coredigix-array#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "dependencies": {
+    "gulp-include": "^2.3.1",
+    "gulp-minify": "^2.1.0",
+    "gulp-rename": "^1.2.2"
+  }
+}

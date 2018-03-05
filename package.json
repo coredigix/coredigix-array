@@ -21,11 +21,11 @@
   },
   "homepage": "https://github.com/coredigix/coredigix-array#readme",
   "devDependencies": {
-    "gulp": "^3.9.1"
-  },
-  "dependencies": {
+    "gulp": "^3.9.1",
     "gulp-include": "^2.3.1",
     "gulp-minify": "^2.1.0",
     "gulp-rename": "^1.2.2"
+  },
+  "dependencies": {
   }
 }

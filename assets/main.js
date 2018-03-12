@@ -89,12 +89,20 @@ class ArrayUtilsFactory extends Array{
 		this.splice(0);
 		return this;
 	}
+
+	eq(index){
+		if(index < 0){
+			index += this.length;
+			if(index < 0) return undefined;
+		}
+		return this[index];
+	}
 }
 
-Object.defineProperties(ArrayUtils.prototype, {
+Object.defineProperties(ArrayUtilsFactory.prototype, {
 	contains	: {value: Array.prototype.includes},
 	has			: {value: Array.prototype.includes},
-	duplicate	: {value: ArrayUtils.prototype.clone}
+	duplicate	: {value: ArrayUtilsFactory.prototype.clone}
 })
 
 // instanceof
